@@ -1,0 +1,9 @@
+﻿CREATE PROCEDURE [dbo].[spAddFamily]
+	@Name NVARCHAR(100)
+AS
+BEGIN
+	INSERT INTO Family ([Name])
+	VALUES (@Name)
+
+	SELECT SCOPE_IDENTITY() AS FamilyID;
+END
