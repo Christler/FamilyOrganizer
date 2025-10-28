@@ -1,0 +1,6 @@
+@FamilyOrganizer.Api_HostAddress = http://localhost:5063
+
+GET {{FamilyOrganizer.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

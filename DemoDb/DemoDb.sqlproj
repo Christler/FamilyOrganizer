@@ -68,6 +68,12 @@
     <Build Include="spAddEvent.sql" />
     <Build Include="spAddChore.sql" />
     <Build Include="spAssignChoreToUser.sql" />
+    <Build Include="spGetUsersByFamily.sql" />
+    <Build Include="spGetChoresByFamily.sql" />
+    <Build Include="spUpdateChoreStatus.sql" />
+    <Build Include="spDeleteChore.sql" />
+    <Build Include="spGetEventsByFamily.sql" />
+    <Build Include="spDeleteEvent.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Local.publish.xml" />
