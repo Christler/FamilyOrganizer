@@ -25,10 +25,10 @@ jobs:
 
           # Build ONLY the web API project (not the whole solution)
       - name: Build Web API
-        run: dotnet build ./FamilyTracker.Api/FamilyTracker.Api.csproj --configuration Release
+        run: dotnet build ./FamilyOrganizer/FamilyOrganizer.Api.csproj --configuration Release
 
       - name: Publish Web API
-        run: dotnet publish ./FamilyTracker.Api/FamilyTracker.Api.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish ./FamilyOrganizer/FamilyOrganizer.Api.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       # - name: Build with dotnet
       #   run: dotnet build --configuration Release
